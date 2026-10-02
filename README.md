@@ -36,13 +36,13 @@ Keep the GitHub username and repository name unchanged to preserve the NFC URL. 
 
 ## Mobile checks
 
-Uses dynamic viewport height with a legacy fallback, safe-area insets, native vertical scroll snapping, keyboard-accessible navigation, reduced-motion support, and sections that grow on short screens or enlarged text. Test the final music provider on a real iPhone; desktop mobile emulation does not reproduce Safari playback restrictions or NFC hardware.
+Uses dynamic viewport height with a legacy fallback, safe-area insets, discrete cards with one vertical swipe per card, keyboard navigation (arrows, Page Up/Down, Home/End), and reduced-motion support. The compact layout has no bottom menu or nested card scrolling at normal phone sizes. A measured overflow fallback allows reading on very short windows or with enlarged text. The full personal note opens in a separate scrollable dialog. Test the final music provider on a real iPhone; desktop mobile emulation does not reproduce Safari playback restrictions or NFC hardware.
 
 ## Polska wersja i własny liścik
 
 W `content.js` znajdziesz `note.greeting`, `note.paragraphs` i `note.signature`.
 Zastąp teksty w nawiasach własnymi życzeniami. Każdy element tablicy `paragraphs` tworzy osobny akapit; `\n` pozwala przejść do nowej linii. Tekst jest wyświetlany bez interpretowania HTML.
-Liścik na ostatniej stronie i liścik w okienku korzystają z tych samych danych. Boczny przycisk otwiera okienko; krzyżyk, Escape i kliknięcie poza nim zamykają je. Długie życzenia można przewijać.
+Przycisk na ostatniej stronie oraz przycisk „Liścik” w górnym pasku otwierają ten sam liścik w okienku; krzyżyk, Escape i kliknięcie poza nim zamykają je. Długie życzenia można przewijać.
 
 ## Jak podłączyć ABBĘ
 
@@ -55,3 +55,9 @@ Najprostszy wariant jest już obsługiwany:
 Po naciśnięciu głównego przycisku otworzy się Spotify. W razie potrzeby naciśnij Play w Spotify i wróć na stronę. To nie jest muzyka osadzona w tle strony; odtwarzanie kontroluje Spotify. Nie ustawiaj adresu Spotify jako `source` — to nie adres pliku audio.
 
 Alternatywa: widoczny odtwarzacz Spotify Embed na stronie. Wymaga dodania integracji; sam przycisk startowy nie gwarantuje odtwarzania w Safari. Oficjalna dokumentacja: https://developer.spotify.com/documentation/embeds/references/iframe-api
+
+## Aktualnie opublikowana strona
+
+Adres: https://theitaroshi.github.io/kaja-emergency-kit/
+Źródła: gałąź `main`. GitHub Pages publikuje gałąź `gh-pages` z katalogu głównego.
+Po zapisaniu zmian w commicie wyślij obie gałęzie: `git push origin main` i `git push origin main:gh-pages`.
