@@ -56,17 +56,52 @@ musicButton.addEventListener('click', () => musicOn ? music.stop() : music.start
 // Cards are discrete screens. No nested card scrolling competes with a swipe.
 const sections = [...document.querySelectorAll('.panel')];
 let currentIndex = 0;
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let finishTransition = null;
+reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) finishTransition?.(); });
 function goTo(id, focus = false) {
   const index = sections.findIndex(section => section.id === id);
   if (index < 0) return;
-  const changed = currentIndex !== index;
+  finishTransition?.();
+  const previousIndex = currentIndex;
+  const changed = previousIndex !== index;
   currentIndex = index;
   sections.forEach((section, i) => {
     section.hidden = i !== index;
+    section.inert = i !== index;
     section.classList.toggle('active', i === index);
   });
   document.body.dataset.section = id;
-  if (changed) sections[index].scrollTop = 0;
+  if (changed) {
+    const incoming = sections[index];
+    const outgoing = sections[previousIndex];
+    incoming.scrollTop = 0;
+    if (!reducedMotion.matches) {
+      const direction = index > previousIndex ? 1 : -1;
+      outgoing.hidden = false;
+      const timing = { duration: 340, easing: 'cubic-bezier(.22,.7,.25,1)', fill: 'both' };
+      const animations = [
+        outgoing.animate([
+          { transform: 'translateY(0)' },
+          { transform: `translateY(${-direction * 100}%)` }
+        ], timing),
+        incoming.animate([
+          { transform: `translateY(${direction * 100}%)` },
+          { transform: 'translateY(0)' }
+        ], timing)
+      ];
+      let finished = false;
+      const finish = () => {
+        if (finished) return;
+        finished = true;
+        outgoing.hidden = true;
+        animations.forEach(animation => animation.cancel());
+        finishTransition = null;
+      };
+      finishTransition = finish;
+      Promise.all(animations.map(animation => animation.finished)).then(finish, finish);
+    }
+  }
   requestAnimationFrame(checkCardFit);
   const heading = sections[index].querySelector('h1,h2');
   if (focus) {
