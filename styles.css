@@ -38,7 +38,11 @@ h2{font-weight:800;letter-spacing:-1.1px;overflow-wrap:anywhere}.level-heading h
 /* A little candy-shop wrapping for a very personal gift. */
 :root{--paper:#fff3f8;--ink:#60334f;--red:#b52a68}
 ::selection{background:#f7b5d4;color:#60334f}
-#experience{scroll-snap-type:y proximity}
+/* One viewport per card; a swipe must stop at the adjacent card. */
+#experience{scroll-snap-type:y mandatory}
+.panel{height:100%;min-height:100%;scroll-snap-align:center;scroll-snap-stop:always}
+/* Long notes and enlarged text remain readable within their own card. */
+.section-inner{max-height:100%;overflow-y:auto;overscroll-behavior-y:auto;padding:18px 6px;scrollbar-width:thin}
 .panel{background-image:radial-gradient(circle at 12px 12px,#ffffff60 2px,transparent 2.5px);background-size:28px 28px}
 .intro{background-image:radial-gradient(ellipse at 90% 20%,#ffc5e5aa,transparent 55%),radial-gradient(ellipse at 0% 90%,#e5d5ff99,transparent 55%);background-size:auto}
 .intro .eyebrow{width:fit-content;border:1px solid #efc6db;background:#fffafd;padding:8px 14px;border-radius:30px;font-weight:800}

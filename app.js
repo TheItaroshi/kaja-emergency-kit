@@ -51,7 +51,7 @@ const music = createMusic(kit.music, notify, on => { musicOn = on; musicButton.s
 if (kit.music.mode === 'external') { document.querySelector('#music-label').textContent = kit.music.externalLabel; musicButton.setAttribute('aria-label', kit.ui.musicExternal); }
 musicButton.addEventListener('click', () => musicOn ? music.stop() : music.start());
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-function goTo(id, focus = false) { const section = document.getElementById(id); if (!section) return; section.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }); if (focus) { const heading = section.querySelector('h1,h2'); heading.tabIndex = -1; heading.focus({ preventScroll: true }); } }
+function goTo(id, focus = false) { const section = document.getElementById(id); if (!section) return; section.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'center' }); if (focus) { const heading = section.querySelector('h1,h2'); heading.tabIndex = -1; heading.focus({ preventScroll: true }); } }
 document.querySelector('#activate').addEventListener('click', () => { music.start(); goTo('level-1', true); });
 const sections = [...document.querySelectorAll('.panel')];
 document.querySelector('#progress').innerHTML = sections.map((section, i) => `<a href="#${section.id}" aria-label="${i === 0 ? kit.ui.intro : i === 5 ? kit.ui.support : i === 6 ? kit.ui.notes : `${kit.ui.protocol} ${i}`}" ${i === 0 ? 'aria-current="step"' : ''}><span>${i === 0 ? '♡' : i === 5 ? '↗' : i === 6 ? '✎' : `0${i}`}</span></a>`).join('');
