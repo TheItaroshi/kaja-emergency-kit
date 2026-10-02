@@ -79,16 +79,22 @@ function goTo(id, focus = false) {
     if (!reducedMotion.matches) {
       const direction = index > previousIndex ? 1 : -1;
       outgoing.hidden = false;
-      const timing = { duration: 600, easing: 'cubic-bezier(.25,.65,.3,1)', fill: 'both' };
+      const timing = { duration: 750, easing: 'cubic-bezier(.25,.65,.3,1)', fill: 'both' };
       const animations = [
         outgoing.animate([
           { transform: 'translateY(0)' },
           { transform: `translateY(${-direction * 100}%)` }
         ], timing),
         incoming.animate([
-          { transform: `translateY(${direction * 100}%)`, opacity: 0.4 },
-          { transform: 'translateY(0)', opacity: 1 }
-        ], timing)
+          { transform: `translateY(${direction * 100}%)` },
+          { transform: 'translateY(0)' }
+        ], timing),
+        // Keep the reveal visible after the card has arrived, not off-screen.
+        incoming.querySelector('.section-inner').animate([
+          { opacity: 0.4, transform: `translateY(${direction * 18}px)` },
+          { opacity: 0.4, offset: 0.3 },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], { duration: 1300, easing: 'ease-in-out', fill: 'both' })
       ];
       let finished = false;
       const finish = () => {
