@@ -36,7 +36,7 @@ KAJOWY
 
 ### Dopisek na dole [intro.footnote]
 
-Na małe dramy i większe kryzysy. No stress.
+No stress, let's go
 
 ### Tekst pod przyciskiem [intro.scroll]
 
@@ -100,7 +100,7 @@ Bayerisches Bier
 
 ### Podpis nad ilością lub planem [levels.0.dosageLabel]
 
-Tradycyjny, niemiecki deeskalator złości w ilości
+Tradycyjny, niemiecki deeskalator złości
 
 ### Ilość lub plan [levels.0.dosage]
 
@@ -109,7 +109,7 @@ Tradycyjny, niemiecki deeskalator złości w ilości
 
 ### Opis / instrukcja [levels.0.instruction]
 
-Prosto z Monachium. Bo niektóre spotkania trzymamy w sercu dłuzej a nakrótsza droga do niego przez żołądek.
+Prosto z Monachium. Bo niektóre miejsca trzymamy w sercu dłużej a nakrótsza droga do niego sunie przez żołądek.
 
 ### Co zrobić [levels.0.step]
 
@@ -131,7 +131,7 @@ CO SIĘ ODJEBAŁO!?
 
 ### Tytuł [levels.1.title]
 
-W momentach kiedy Bóg zaponiał więc ty grzmisz.
+W danym dniu Bóg zapomniał więc ty grzmisz.
 
 ### Komentarz pod tytułem [levels.1.label]
 
@@ -147,20 +147,20 @@ Awaryjny zestaw wieczornego resetu.
 
 ### Podpis nad ilością lub planem [levels.1.dosageLabel]
 
-CHWILA DLA SIEBIE
+CHWILA DLA SIEBIE W AKOMPANIAMENCIE
 
 ### Ilość lub plan [levels.1.dosage]
 
- - Mopso-maseczka x1
- - Ferrero x1
+ - Mopso-maseczka
+ - Ferrero set
 
 ### Opis / instrukcja [levels.1.instruction]
 
-Coś na chwilę, kiedy każdy ma się już odpierdolić a Holiday brzmi jak dobry plan na wieczór.
+Coś na chwilę, kiedy każdy ma się już odpierdolić a "Holiday" Z Cameron Diaz brzmi jak dobry plan na wieczór.
 
 ### Co zrobić [levels.1.step]
 
-Odłącz się a może to może dasz ludziom rano jeszcze szansę.
+Odłącz się a może dasz ludziom rano jeszcze szansę.
 
 ### Przejście dalej [levels.1.next]
 
@@ -174,15 +174,15 @@ Potrzeba czegoś więcej?
 
 ### Krótki status na górze [levels.2.severity]
 
-TRYB: NIE MA MNIE...BÓLU KOŚCI TEŻ NIE
+TRYB "NIE MA MNIE...BÓLU KOŚCI TEŻ NIE"
 
 ### Tytuł [levels.2.title]
 
-Na obolałe starcze kości i ból istnienia.
+Doskwierają starcze kości jak i ból istnienia.
 
 ### Komentarz pod tytułem [levels.2.label]
 
-Wiem, że załużyłaś na self-care - odpal sobie odrobine luksusu.
+Zasłużyłaś na self-care - odpal sobie odrobine luksusu.
 
 ### Podpis nad zawartością paczuszki [levels.2.treatmentLabel]
 
@@ -190,7 +190,7 @@ CZAS DLA CIEBIE
 
 ### Zawartość paczuszki [levels.2.treatment]
 
- - Voucher do Shivago SPA
+Voucher do Shivago SPA
 
 ### Podpis nad ilością lub planem [levels.2.dosageLabel]
 
@@ -202,11 +202,11 @@ Jeden konkretny reset
 
 ### Opis / instrukcja [levels.2.instruction]
 
-Pozówl sobie, żeby przez chwilę mieć wyjebane. Targety w robocie poczekają. Spięte barki i 27-letnie kości już nie.
+Pozwól sobie, żeby przez chwilę mieć wyjebane. Targety w robocie poczekają, spięte barki i 27-letnie kości już nie.
 
 ### Co zrobić [levels.2.step]
 
-Umów masaż. Wyłącz telefon. It's yur time girl
+Umów masaż. Wyłącz telefon. It's your time girl
 
 ### Przejście dalej [levels.2.next]
 
@@ -228,7 +228,7 @@ O tym trzeba pogadać.
 
 ### Komentarz pod tytułem [levels.3.label]
 
-Wstaw wodę. Spill the tea.
+Wstaw wodę i zaparz herbatki
 
 ### Podpis nad zawartością paczuszki [levels.3.treatmentLabel]
 
@@ -244,7 +244,7 @@ NAJLEPIEJ SMAKUJE Z
 
 ### Ilość lub plan [levels.3.dosage]
 
-Herbatka + specjalisat od narad kryzysowych
+Nielimitowanym czasem wizyty i specjalistą od narad kryzysowych
 
 ### Opis / instrukcja [levels.3.instruction]
 
@@ -270,11 +270,11 @@ Jeśli nadal nie przechodzi,
 
 ### Wyróżniona część tytułu [final.emphasis]
 
-odezwij się do swojego wieloltniego specjalisy od wsparcia emocjonalnego.
+odezwij się do swojego wieloletniego typa od wsparcia emocjonalnego.
 
 ### Opis [final.note]
 
-Chcociaż już nic nas nie zaskoczy,
+Chocciaż już nic nas nie zaskoczy,
 to tematy się mnożą mimo upływu lat
 
 ### Podpis nad numerem telefonu [final.button]
@@ -320,18 +320,18 @@ Wszystkiego najlepszego, życzę Ci
 
 Żebyś mimo natłoku dramatów i krzywych akcji dalej stąpała twardo po ziemi,
 i żebyś mimo tej siły, z otwartym serduchem, wciąż potrafiła wesprzeć każdego w potrzebie.
-Konsekwesji w dorzęniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.
-By natłok nistworzonych historii był równany przez pozytywną energię ludzi wokół Ciebie.
+Konsekwencji w dążęniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.
+By natłok niestworzonych historii był równany przez pozytywną energię ludzi wokół Ciebie.
 Niech budżet się zawsze spina, koncerty nie kończyły a herbatka lała się litrami!
 
 Mimo upływu lat, niektóre rzeczy się nie zmieniają.
 I tak jest z ludźmi, którzy są dla nas drodzy.
-Rozdzieleni tyle razy, że reuniony zaczęlismy zliczać to liczbą mieszkań,
+Rozdzieleni tyle razy, że reuniony zaczęlismy zliczać liczbą mieszkań,
 ale gdziekolwiek sie nie wyjedzie, trzymamy w serduchu ludzi, którym chce się o tym opowiedzieć.
 Dziękuję Ci za to, że zawsze byłaś osobą słuchającą tych historii,
-osobą, przy której nawet dłuży brak kontaktu wydawał się, że minął ledwie weekend.
+osobą, przy której nawet dłuższy brak kontaktu wydawał się, że minął ledwie weekend.
 
-Nie zmieniaj się, a jak już to to tylko na lepsze, bo jesteś wspaniałą osobą. 
+Nie zmieniaj się, a jak już to tylko na lepsze, bo jesteś wspaniałą osobą.
 Jeszcze raz, wszystkiego najlepszego
 
 ### Podpis [note.signature]
