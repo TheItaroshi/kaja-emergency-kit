@@ -131,7 +131,7 @@ CO SIĘ ODJEBAŁO!?
 
 ### Tytuł [levels.1.title]
 
-W danym dniu Bóg zapomniał, więc ty grzmisz.
+W danym dniu Bóg zapomniał, więc TY grzmisz.
 
 ### Komentarz pod tytułem [levels.1.label]
 
@@ -314,10 +314,11 @@ Kilka słów dla Ciebie…
 
 ### Powitanie [note.greeting]
 
-Wszystkiego najlepszego! Życzę Ci:
+Wszystkiego najlepszego!
 
 ### Treść — dowolna liczba akapitów [note.paragraphs]
 
+Życzę Ci:
 Żebyś mimo natłoku dramatów i krzywych akcji dalej stąpała twardo po ziemi
 i żebyś mimo tej siły, z otwartym serduchem, wciąż potrafiła wesprzeć każdego w potrzebie.
 Konsekwencji w dążeniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.

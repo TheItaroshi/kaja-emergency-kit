@@ -48,7 +48,7 @@ window.KIT = {
       "number": "02",
       "theme": "quota",
       "severity": "CO SIĘ ODJEBAŁO!?",
-      "title": "W danym dniu Bóg zapomniał, więc ty grzmisz.",
+      "title": "W danym dniu Bóg zapomniał, więc TY grzmisz.",
       "label": "Ostatni nerw opuścił salę, więc i Ty się ulotnij.",
       "treatment": "Awaryjny zestaw wieczornego resetu.",
       "dosage": "- Mopso-maseczka\n - Ferrero set",
@@ -106,9 +106,9 @@ window.KIT = {
   "note": {
     "eyebrow": "JUŻ BEZ INSTRUKCJI OBSŁUGI",
     "title": "Kilka słów dla Ciebie…",
-    "greeting": "Wszystkiego najlepszego! Życzę Ci:",
+    "greeting": "Wszystkiego najlepszego!",
     "paragraphs": [
-      "Żebyś mimo natłoku dramatów i krzywych akcji dalej stąpała twardo po ziemi\ni żebyś mimo tej siły, z otwartym serduchem, wciąż potrafiła wesprzeć każdego w potrzebie.\nKonsekwencji w dążeniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.\nBy natłok niestworzonych historii był równoważony przez pozytywną energię ludzi wokół Ciebie.\nNiech budżet się zawsze spina, koncerty się nie kończą, a herbatka leje się litrami!",
+      "Życzę Ci:\nŻebyś mimo natłoku dramatów i krzywych akcji dalej stąpała twardo po ziemi\ni żebyś mimo tej siły, z otwartym serduchem, wciąż potrafiła wesprzeć każdego w potrzebie.\nKonsekwencji w dążeniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.\nBy natłok niestworzonych historii był równoważony przez pozytywną energię ludzi wokół Ciebie.\nNiech budżet się zawsze spina, koncerty się nie kończą, a herbatka leje się litrami!",
       "Mimo upływu lat niektóre rzeczy się nie zmieniają.\nI tak jest z ludźmi, którzy są dla nas drodzy.\nRozdzieleni tyle razy, że reuniony zaczęliśmy zliczać liczbą mieszkań,\nale gdziekolwiek się nie wyjedzie, trzymamy w serduchu ludzi, którym chce się o tym opowiedzieć.\nDziękuję Ci za to, że zawsze byłaś osobą słuchającą tych historii,\nosobą, przy której nawet po dłuższej przerwie w kontakcie miałem wrażenie, że minął ledwie weekend.",
       "Nie zmieniaj się, a jak już, to tylko na lepsze, bo jesteś wspaniałą osobą.\nJeszcze raz: wszystkiego najlepszego!"
     ],
