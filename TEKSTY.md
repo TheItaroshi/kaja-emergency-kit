@@ -84,7 +84,7 @@ WKURW KLASYCZNY
 
 ### Tytuł [levels.0.title]
 
-Na sklepie ukry a regionalna na zapleczu
+Na sklepie ukry, a regionalna na zapleczu
 
 ### Komentarz pod tytułem [levels.0.label]
 
@@ -109,7 +109,7 @@ Tradycyjny, niemiecki deeskalator złości
 
 ### Opis / instrukcja [levels.0.instruction]
 
-Prosto z Monachium. Bo niektóre miejsca trzymamy w sercu dłużej a nakrótsza droga do niego sunie przez żołądek.
+Prosto z Monachium. Bo niektóre miejsca trzymamy w sercu dłużej, a najkrótsza droga do niego sunie przez żołądek.
 
 ### Co zrobić [levels.0.step]
 
@@ -131,11 +131,11 @@ CO SIĘ ODJEBAŁO!?
 
 ### Tytuł [levels.1.title]
 
-W danym dniu Bóg zapomniał więc ty grzmisz.
+W danym dniu Bóg zapomniał, więc ty grzmisz.
 
 ### Komentarz pod tytułem [levels.1.label]
 
-Ostatni nerw opuścił salę więc i Ty się ulotnij.
+Ostatni nerw opuścił salę, więc i Ty się ulotnij.
 
 ### Podpis nad zawartością paczuszki [levels.1.treatmentLabel]
 
@@ -156,11 +156,11 @@ CHWILA DLA SIEBIE W AKOMPANIAMENCIE
 
 ### Opis / instrukcja [levels.1.instruction]
 
-Coś na chwilę, kiedy każdy ma się już odpierdolić a "Holiday" Z Cameron Diaz brzmi jak dobry plan na wieczór.
+Coś na chwilę, kiedy każdy ma się już odpierdolić, a „Holiday” z Cameron Diaz brzmi jak dobry plan na wieczór.
 
 ### Co zrobić [levels.1.step]
 
-Odłącz się a może dasz ludziom rano jeszcze szansę.
+Odłącz się, a może dasz ludziom rano jeszcze szansę.
 
 ### Przejście dalej [levels.1.next]
 
@@ -178,11 +178,11 @@ TRYB "NIE MA MNIE...BÓLU KOŚCI TEŻ NIE"
 
 ### Tytuł [levels.2.title]
 
-Doskwierają starcze kości jak i ból istnienia.
+Doskwierają starcze kości, jak i ból istnienia.
 
 ### Komentarz pod tytułem [levels.2.label]
 
-Zasłużyłaś na self-care - odpal sobie odrobine luksusu.
+Zasłużyłaś na self-care — odpal sobie odrobinę luksusu.
 
 ### Podpis nad zawartością paczuszki [levels.2.treatmentLabel]
 
@@ -206,7 +206,7 @@ Pozwól sobie, żeby przez chwilę mieć wyjebane. Targety w robocie poczekają,
 
 ### Co zrobić [levels.2.step]
 
-Umów masaż. Wyłącz telefon. It's your time girl
+Umów masaż. Wyłącz telefon. It's your time, girl
 
 ### Przejście dalej [levels.2.next]
 
@@ -274,7 +274,7 @@ odezwij się do swojego wieloletniego typa od wsparcia emocjonalnego.
 
 ### Opis [final.note]
 
-Chocciaż już nic nas nie zaskoczy,
+Chociaż już nic nas nie zaskoczy,
 to tematy się mnożą mimo upływu lat
 
 ### Podpis nad numerem telefonu [final.button]
@@ -300,7 +300,7 @@ ZAWSZE PO TWOJEJ STRONIE
 
 ### Przejście do liściku [final.next]
 
-Jeszcze mała notka jak zgubisz kartkę urodzinową ↓
+Jeszcze mała notka, jak zgubisz kartkę urodzinową ↓
 
 ## Liścik
 
@@ -310,29 +310,29 @@ JUŻ BEZ INSTRUKCJI OBSŁUGI
 
 ### Tytuł ekranu i okienka [note.title]
 
-Kilka słow dla Ciebie…
+Kilka słów dla Ciebie…
 
 ### Powitanie [note.greeting]
 
-Wszystkiego najlepszego, życzę Ci
+Wszystkiego najlepszego! Życzę Ci:
 
 ### Treść — dowolna liczba akapitów [note.paragraphs]
 
-Żebyś mimo natłoku dramatów i krzywych akcji dalej stąpała twardo po ziemi,
+Żebyś mimo natłoku dramatów i krzywych akcji dalej stąpała twardo po ziemi
 i żebyś mimo tej siły, z otwartym serduchem, wciąż potrafiła wesprzeć każdego w potrzebie.
-Konsekwencji w dążęniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.
-By natłok niestworzonych historii był równany przez pozytywną energię ludzi wokół Ciebie.
-Niech budżet się zawsze spina, koncerty nie kończyły a herbatka lała się litrami!
+Konsekwencji w dążeniu do celów, jakiekolwiek sobie wymarzysz i obierzesz.
+By natłok niestworzonych historii był równoważony przez pozytywną energię ludzi wokół Ciebie.
+Niech budżet się zawsze spina, koncerty się nie kończą, a herbatka leje się litrami!
 
-Mimo upływu lat, niektóre rzeczy się nie zmieniają.
+Mimo upływu lat niektóre rzeczy się nie zmieniają.
 I tak jest z ludźmi, którzy są dla nas drodzy.
-Rozdzieleni tyle razy, że reuniony zaczęlismy zliczać liczbą mieszkań,
-ale gdziekolwiek sie nie wyjedzie, trzymamy w serduchu ludzi, którym chce się o tym opowiedzieć.
+Rozdzieleni tyle razy, że reuniony zaczęliśmy zliczać liczbą mieszkań,
+ale gdziekolwiek się nie wyjedzie, trzymamy w serduchu ludzi, którym chce się o tym opowiedzieć.
 Dziękuję Ci za to, że zawsze byłaś osobą słuchającą tych historii,
-osobą, przy której nawet dłuższy brak kontaktu wydawał się, że minął ledwie weekend.
+osobą, przy której nawet po dłuższej przerwie w kontakcie miałem wrażenie, że minął ledwie weekend.
 
-Nie zmieniaj się, a jak już to tylko na lepsze, bo jesteś wspaniałą osobą.
-Jeszcze raz, wszystkiego najlepszego
+Nie zmieniaj się, a jak już, to tylko na lepsze, bo jesteś wspaniałą osobą.
+Jeszcze raz: wszystkiego najlepszego!
 
 ### Podpis [note.signature]
 
