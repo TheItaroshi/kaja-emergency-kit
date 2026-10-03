@@ -26,3 +26,7 @@
 /* Accessibility fallback for very short windows or unusually large text. */
 #experience.allow-scroll{touch-action:pan-y pinch-zoom}.panel.needs-scroll{align-items:flex-start;overflow-y:auto;touch-action:pan-y pinch-zoom}.panel.needs-scroll .section-inner{margin-block:auto}.panel.needs-scroll .next{position:sticky;bottom:0;background:var(--paper);border-radius:12px;padding-inline:12px}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Preserve edited lists and give the longer opening title room on phones. */
+.dosage>p:last-child,.instruction,.level-label,.step{white-space:pre-line}
+.intro.long-title h1{font-size:clamp(28px,8.2vw,48px);line-height:1.1}

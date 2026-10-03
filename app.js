@@ -3,7 +3,7 @@ const escapeText = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp
 const e = escapeText;
 const noteMarkup = () => `<article class="handwritten-note"><p class="note-greeting">${e(kit.note.greeting)}</p>${kit.note.paragraphs.map(text => `<p>${e(text)}</p>`).join('')}<p class="note-signature">${e(kit.note.signature)}</p></article>`;
 const root = document.querySelector('#experience');
-root.innerHTML = `<section class="panel intro active" id="intro" aria-labelledby="intro-title">
+root.innerHTML = `<section class="panel intro active ${kit.intro.titleLines.some(line => line.length > 16) ? 'long-title' : ''}" id="intro" aria-labelledby="intro-title">
   <div class="section-inner"><div class="eyebrow"><span class="cross">✳</span>${e(kit.intro.eyebrow)}</div>
   <div class="intro-heading"><h1 id="intro-title">${kit.intro.titleLines.map((line, i) => i === kit.intro.titleLines.length - 1 ? `<span>${e(line)}</span>` : e(line)).join('<br>')}</h1><div class="seal"><span>${e(kit.intro.seal)}</span><b aria-hidden="true">✳</b><span>${e(kit.ui.seal)}</span></div></div>
   <p class="intro-copy">${e(kit.intro.subtitle)}</p><div class="activation"><span class="cut-line">${e(kit.ui.activate)}</span><button class="primary" id="activate">${e(kit.intro.button)}<span aria-hidden="true">↗</span></button><p>${e(kit.intro.scroll)}</p></div>
