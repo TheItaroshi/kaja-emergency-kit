@@ -101,7 +101,7 @@ window.KIT = {
     "signoff": "Dla Kai. Od Twojego człowieka od kryzysów.",
     "restart": "Jeszcze raz od początku",
     "badge": "ZAWSZE PO TWOJEJ STRONIE",
-    "next": "Jeszcze mała notka, jak zgubisz kartkę urodzinową ↓"
+    "next": "Jeszcze mała notka ↓"
   },
   "note": {
     "eyebrow": "JUŻ BEZ INSTRUKCJI OBSŁUGI",
@@ -112,7 +112,7 @@ window.KIT = {
       "Mimo upływu lat niektóre rzeczy się nie zmieniają.\nI tak jest z ludźmi, którzy są dla nas drodzy.\nRozdzieleni tyle razy, że reuniony zaczęliśmy zliczać liczbą mieszkań,\nale gdziekolwiek się nie wyjedzie, trzymamy w serduchu ludzi, którym chce się o tym opowiedzieć.\nDziękuję Ci za to, że zawsze byłaś osobą słuchającą tych historii,\nosobą, przy której nawet po dłuższej przerwie w kontakcie miałem wrażenie, że minął ledwie weekend.",
       "Nie zmieniaj się, a jak już, to tylko na lepsze, bo jesteś wspaniałą osobą.\nJeszcze raz: wszystkiego najlepszego!"
     ],
-    "signature": "Patryk",
+    "signature": "Janas",
     "button": "Liścik",
     "close": "Zamknij liścik",
     "footer": "PS Pudełko się kończy. Wsparcie nie."

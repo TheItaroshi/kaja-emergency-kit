@@ -300,7 +300,7 @@ ZAWSZE PO TWOJEJ STRONIE
 
 ### Przejście do liściku [final.next]
 
-Jeszcze mała notka, jak zgubisz kartkę urodzinową ↓
+Jeszcze mała notka ↓
 
 ## Liścik
 
@@ -337,7 +337,7 @@ Jeszcze raz: wszystkiego najlepszego!
 
 ### Podpis [note.signature]
 
-Patryk
+Janas
 
 ### Przycisk w górnym pasku [note.button]
 
