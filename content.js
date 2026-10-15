@@ -96,7 +96,7 @@ window.KIT = {
     "emphasis": "odezwij się do swojego wieloletniego typa od wsparcia emocjonalnego.",
     "note": "Chociaż już nic nas nie zaskoczy,\nto tematy się mnożą mimo upływu lat",
     "button": "Gorąca linia kryzysowa",
-    "placeholder": "+48 668 675 699",
+    "placeholder": "Skontaktuj się bezpośrednio",
     "placeholderNote": "",
     "signoff": "Dla Kai. Od Twojego człowieka od kryzysów.",
     "restart": "Jeszcze raz od początku",
@@ -118,7 +118,7 @@ window.KIT = {
     "footer": "PS Pudełko się kończy. Wsparcie nie."
   },
   "contact": {
-    "phone": "+48 668 675 699",
+    "phone": "",
     "display": "",
     "method": "tel"
   },
